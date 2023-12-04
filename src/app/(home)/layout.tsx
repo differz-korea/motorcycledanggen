@@ -8,7 +8,7 @@ type Props = {} & React.PropsWithChildren
 const HomeLayout = ({ children }: Props) => {
   return (
     <>
-      <body className='flex flex-col '>
+      <body className='flex flex-col'>
         <Header />
         {children}
         <Footer />
