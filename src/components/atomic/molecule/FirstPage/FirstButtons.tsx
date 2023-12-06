@@ -23,7 +23,7 @@ const FirstButtons = (props: Props) => {
           alt={"string"}
           height={true}
           subtitle2={"오토바이 판매!"}
-          link={""}
+          link={"/purchase"}
         />
         <FirstpageButton
           title={"구매하기"}
@@ -32,7 +32,7 @@ const FirstButtons = (props: Props) => {
           alt={"string"}
           height={true}
           subtitle2={"한번에!"}
-          link={""}
+          link={"/purchase"}
         />
       </div>
       <FirstpageButton
