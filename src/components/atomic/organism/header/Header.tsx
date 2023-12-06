@@ -4,7 +4,7 @@ type Props = {}
 
 const Header = (props: Props) => {
   return (
-    <div className='bg-[#0066FF] py-[20.5px] px-[12px] rounded-b-[10px]'>
+    <div className='bg-[#0066FF] py-5 px-3 rounded-b-[10px] sticky top-0'>
       <div className='flex flex-row justify-between text-white font-normal text-[16px]'>
         <div className='flex flex-row  gap-2'>
           <p>

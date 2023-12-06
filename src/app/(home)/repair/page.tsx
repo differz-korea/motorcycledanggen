@@ -7,8 +7,8 @@ type Props = {}
 const page = (props: Props) => {
   return (
     <div className=" flex flex-col ">
-      <div className='flex flex-col   bg-[#B8D4FF] px-[24px] justify-between gap-[24px] pb-[20.38px] shadow-[0_0px_4px_-15px_rgba(0,0,0,0.3)]'>
-        <div className='flex flex-col gap-2 '>
+      <div className='flex flex-col bg-[#B8D4FF] px-6 justify-between gap-6 pb-5 shadow-[0_0px_4px_-15px_rgba(0,0,0,0.3)]'>
+        <div className='flex flex-col gap-2'>
           <p className='text-[10px] text-[#0066FF] '>
             #이륜차 #고장났을때
           </p>
@@ -17,7 +17,7 @@ const page = (props: Props) => {
             배추딜러에서 시작하세요!
           </p>
         </div>
-        <div className='flex flex-row  items-end justify-between '>
+        <div className='flex flex-row items-end justify-between '>
           <button className='bg-[#0066FF] text-white px-3 py-2 rounded-[5px] text-[12px] font-light'>
             최저가 견적받기
           </button>
